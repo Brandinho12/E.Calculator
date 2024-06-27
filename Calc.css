@@ -60,4 +60,8 @@
     border: 2px solid #555; /* Beveled border for a 3D effect */
     box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.5); /* Inner shadow for depth */
   }
+  body{
+    background-color:#6d8b94;
+    font-family: 'Robot',sans-serif;
+  }
   
