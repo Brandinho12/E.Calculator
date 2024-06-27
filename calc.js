@@ -11,7 +11,7 @@ buttons.forEach(button => {
       } catch (error) {
         display.value = 'Error';
       }
-    } else if (buttonText === 'C') {
+    } else if (buttonText === 'AC') {
       display.value = ''; 
     } else {
       display.value += buttonText;

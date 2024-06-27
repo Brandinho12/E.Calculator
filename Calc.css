@@ -1,10 +1,11 @@
 .calculator {
     width: 300px;
     margin: 50px auto;
-    border: 1px solid #ccc;
+    border: 1px solid black;
     padding: 30px;
-    padding-right: 20px;
-    border-radius: 20px;/
+    border-radius: 20px;
+    justify-self: center;
+  
     
   }
   
@@ -14,6 +15,7 @@
     margin-bottom: 10px;
     font-size: 50px;
     border-radius: 30px;
+
   }
   
   .buttons button {
@@ -40,27 +42,25 @@
   }
   
   .operator { /* New class for operator buttons */
-    background-color: rgba(255, 166, 0, 0.986); 
+    background-color: gray; /*for a more cool look*/
     color: white;
   }
   
   .function { /* New class for function buttons */
-    background-color: #5bc0de; /* Blue background for functions */
+    background-color: cyan; /* Blue background for functions */
     color: white;
   }
   
-
-  /* ... (Basic styling as before) ... */
-
 .display-screen {
     background-color: #333; /* Dark background */
-    color: #f08080; /* Light red text color (simulates LED/LCD) */
+    color:white; /* white text color for a clearer display*/
     padding: 20px;
     margin-bottom: 10px;
     text-align: right; /* Makes the numbers to start popping up from the right */
     font-size: 24px; /* Larger font for better visibility */
     border: 2px solid #555; /* Beveled border for a 3D effect */
     box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.5); /* Inner shadow for depth */
+    justify-self: center;
   }
   body{
     background-color:#6d8b94;
